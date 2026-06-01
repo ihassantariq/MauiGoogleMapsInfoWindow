@@ -1,3 +1,5 @@
+using MauiGoogleMapsInfoWindow.Pages;
+
 namespace MauiGoogleMapsInfoWindow;
 
 public partial class App : Application

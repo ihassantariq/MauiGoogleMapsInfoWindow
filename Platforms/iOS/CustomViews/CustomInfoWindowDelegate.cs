@@ -3,7 +3,7 @@ using CoreGraphics;
 using Google.Maps;
 using UIKit;
 
-namespace MauiGoogleMapsInfoWindow.Platforms.iOS.Handlers;
+namespace MauiGoogleMapsInfoWindow.Platforms.iOS.CustomViews;
 
 // ToPlatformEmbedded cannot be used here. MAUI's embedded rendering context
 // conflicts with the Google Maps SDK Metal pipeline on iOS 26, crashing in

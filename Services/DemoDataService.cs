@@ -40,7 +40,7 @@ public static class DemoDataService
                 Longitude = 12.4922,
                 Category = "Historical",
                 Address = "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
-                ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/d/de/Colosseo_2020.jpg",
+                ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
                 Rating = 4.8,
                 OpeningHours = "9:00 AM – 7:15 PM"
             },
@@ -169,7 +169,7 @@ public static class DemoDataService
                 Longitude = 35.4444,
                 Category = "Historical",
                 Address = "Wadi Musa, Jordan",
-                ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/1/1c/Al-Khazneh_%28Petra%29.jpg",
+                ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Treasury_petra_crop.jpeg/960px-Treasury_petra_crop.jpeg",
                 Rating = 4.8,
                 OpeningHours = "6:00 AM – 6:00 PM (Summer)"
             }

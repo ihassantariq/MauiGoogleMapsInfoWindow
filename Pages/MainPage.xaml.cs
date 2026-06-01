@@ -2,7 +2,7 @@ using MauiGoogleMapsInfoWindow.Models;
 using MauiGoogleMapsInfoWindow.Services;
 using Maui.GoogleMaps;
 
-namespace MauiGoogleMapsInfoWindow;
+namespace MauiGoogleMapsInfoWindow.Pages;
 
 public partial class MainPage : ContentPage
 {
@@ -124,7 +124,7 @@ public partial class MainPage : ContentPage
         {
             // 🔑 Set our custom info window adapter on the native GoogleMap
             googleMap.SetInfoWindowAdapter(
-                new Platforms.Android.Handlers.CustomInfoWindowAdapter(_mauiContext));
+                new Platforms.Android.CustomViews.CustomInfoWindowAdapter(_mauiContext));
         }
     }
 #endif
@@ -136,7 +136,7 @@ public partial class MainPage : ContentPage
         if (MyMap.Handler?.PlatformView is Google.Maps.MapView mapView)
         {
             mapView.MarkerInfoWindow = (_, marker) =>
-                Platforms.iOS.Handlers.CustomInfoWindowRenderer.BuildView(marker);
+                Platforms.iOS.CustomViews.CustomInfoWindowRenderer.BuildView(marker);
         }
     }
 #endif

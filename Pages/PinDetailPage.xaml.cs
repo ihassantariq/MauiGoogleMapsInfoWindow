@@ -1,6 +1,6 @@
 using MauiGoogleMapsInfoWindow.Models;
 
-namespace MauiGoogleMapsInfoWindow;
+namespace MauiGoogleMapsInfoWindow.Pages;
 
 public partial class PinDetailPage : ContentPage
 {

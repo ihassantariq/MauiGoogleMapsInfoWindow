@@ -5,7 +5,7 @@ using MauiGoogleMapsInfoWindow.Controls;
 using Microsoft.Maui.Controls.Embedding;
 using AndroidView = Android.Views.View;
 
-namespace MauiGoogleMapsInfoWindow.Platforms.Android.Handlers;
+namespace MauiGoogleMapsInfoWindow.Platforms.Android.CustomViews;
 
 public class CustomInfoWindowAdapter : Java.Lang.Object, GoogleMap.IInfoWindowAdapter
 {
