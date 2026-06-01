@@ -2,8 +2,22 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:googlemaps="clr-namespace:Maui.GoogleMaps;assembly=Maui.GoogleMaps"
-             x:Class="MauiGoogleMapsInfoWindow.MainPage"
-             Title="World Landmarks 🌍">
+             x:Class="MauiGoogleMapsInfoWindow.MainPage">
+
+    <NavigationPage.TitleView>
+        <HorizontalStackLayout Spacing="8" VerticalOptions="Center">
+            <Label Text="&#xf57d;"
+                   FontFamily="FASolid"
+                   FontSize="20"
+                   TextColor="#512BD4"
+                   VerticalOptions="Center"/>
+            <Label Text="World Landmarks"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   TextColor="#1A1A1A"
+                   VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+    </NavigationPage.TitleView>
 
     <Grid>
         <!-- The Google Map fills the entire page -->
