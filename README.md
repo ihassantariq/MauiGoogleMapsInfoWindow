@@ -4,7 +4,7 @@ A .NET MAUI app showing how to build a fully custom info window when tapping a G
 
 ## 📺 Video Tutorial
 
-Watch the full walkthrough: [Custom Google Maps Info Window in .NET MAUI](https://youtu.be/Dza9-zZukQM?si=jzsXwzGNsO30TRw-)
+[![Custom Google Maps Info Window in .NET MAUI](https://img.youtube.com/vi/Dza9-zZukQM/maxresdefault.jpg)](https://youtu.be/Dza9-zZukQM?si=jzsXwzGNsO30TRw-)
 
 ## The Problem
 
